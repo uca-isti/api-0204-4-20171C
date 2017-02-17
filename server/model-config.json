@@ -31,5 +31,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Actividad": {
+    "dataSource": "db",
+    "public": false
+  },
+  "Actividades": {
+    "dataSource": "db",
+    "public": false
   }
 }
