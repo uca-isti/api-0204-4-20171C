@@ -32,7 +32,11 @@
     "dataSource": "db",
     "public": false
   },
+<<<<<<< HEAD
   "servicios": {
+=======
+  "categoria": {
+>>>>>>> 6b54958d6df5009fd0d9731dbe440221b6c80d02
     "dataSource": "db",
     "public": false
   }
