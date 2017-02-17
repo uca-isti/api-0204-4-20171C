@@ -1,0 +1,30 @@
+{
+  "name": "Locales",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "direccion": {
+      "type": "string",
+      "required": true
+    },
+    "contactos": {
+      "type": "string",
+      "required": true
+    },
+    "lugar_id": {
+      "type": "number",
+      "required": true
+    },
+    "servicio_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
