@@ -32,11 +32,19 @@
     "dataSource": "db",
     "public": false
   },
+<<<<<<< HEAD
   "Actividad": {
     "dataSource": "db",
     "public": false
   },
   "Actividades": {
+=======
+<<<<<<< HEAD
+  "servicios": {
+=======
+  "categoria": {
+>>>>>>> 6b54958d6df5009fd0d9731dbe440221b6c80d02
+>>>>>>> 9d877f84b9747aab10ccafcdc8275dcfab91b655
     "dataSource": "db",
     "public": false
   }
