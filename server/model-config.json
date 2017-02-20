@@ -51,5 +51,9 @@
   "categoria": {
     "dataSource": "db",
     "public": true
+  },
+  "Lugar": {
+    "dataSource": "db",
+    "public": true
   }
 }
