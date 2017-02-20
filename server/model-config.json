@@ -32,16 +32,24 @@
     "dataSource": "db",
     "public": false
   },
-<<<<<<< HEAD
   "Locales": {
-=======
-<<<<<<< HEAD
-  "servicios": {
-=======
-  "categoria": {
->>>>>>> 6b54958d6df5009fd0d9731dbe440221b6c80d02
->>>>>>> 9d877f84b9747aab10ccafcdc8275dcfab91b655
     "dataSource": "db",
-    "public": false
+    "public":true
+  },
+  "Actividad": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Actividades": {
+    "dataSource": "db",
+    "public": true
+  },
+  "servicios": {
+    "dataSource": "db",
+    "public": true
+  },
+  "categoria": {
+    "dataSource": "db",
+    "public": true
   }
 }
