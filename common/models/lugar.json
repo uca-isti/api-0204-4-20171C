@@ -24,6 +24,10 @@
     },
     "descripcion": {
       "type": "string"
+    },
+    "categoria_id": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

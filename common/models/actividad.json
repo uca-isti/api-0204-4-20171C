@@ -21,10 +21,20 @@
     "categoria_id": {
       "type": "number",
       "required": true
+    },
+    "lugar_id": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "lugar": {
+      "type": "belongsTo",
+      "model": "Lugar",
+      "foreignKey": "lugar_id"
+    }
+  },
   "acls": [],
   "methods": {}
 }
