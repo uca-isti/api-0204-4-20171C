@@ -34,7 +34,7 @@
   },
   "Locales": {
     "dataSource": "db",
-    "public":true
+    "public": true
   },
   "Actividad": {
     "dataSource": "db",
