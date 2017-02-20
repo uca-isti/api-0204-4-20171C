@@ -32,8 +32,24 @@
     "dataSource": "db",
     "public": false
   },
-  "Lugar": {
+  "Locales": {
     "dataSource": "db",
-    "public": false
+    "public":true
+  },
+  "Actividad": {
+    "dataSource": "db",
+    "public": true
+  },
+  "Actividades": {
+    "dataSource": "db",
+    "public": true
+  },
+  "servicios": {
+    "dataSource": "db",
+    "public": true
+  },
+  "categoria": {
+    "dataSource": "db",
+    "public": true
   }
 }
