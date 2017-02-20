@@ -1,0 +1,33 @@
+{
+  "name": "Lugar",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "ubicacion": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "type": "string",
+      "required": true
+    },
+    "geolocalizacion": {
+      "type": "geopoint",
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
