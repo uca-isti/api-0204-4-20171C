@@ -6,6 +6,10 @@
     "validateUpsert": true
   },
   "properties": {
+    "actividad_id": {
+      "type": "number",
+      "required": true
+    },
     "nombre": {
       "type": "string",
       "required": true
@@ -21,41 +25,16 @@
     "categoria_id": {
       "type": "number",
       "required": true
-    },
-    "lugar_id": {
-      "type": "number",
-      "required": true
     }
   },
   "validations": [],
   "relations": {
-    "lugar": {
+    "categoria": {
       "type": "belongsTo",
-      "model": "Lugar",
-      "foreignKey": "lugar_id"
+      "model": "categoria",
+      "foreignKey": "categoria_id"
     }
   },
-  "acls": [
-    {
-      "accessType": "*",
-      "principalType": "ROLE",
-      "principalId": "$everyone",
-      "permission": "DENY"
-    },
-    {
-      "accessType": "READ",
-      "principalType": "ROLE",
-      "principalId": "$owner",
-      "permission": "ALLOW",
-      "property": "create"
-    },
-    {
-      "accessType": "READ",
-      "principalType": "ROLE",
-      "principalId": "$authenticated",
-      "permission": "ALLOW",
-      "property": "create"
-    }
-  ],
+  "acls": [],
   "methods": {}
 }
