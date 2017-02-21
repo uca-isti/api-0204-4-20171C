@@ -52,7 +52,7 @@
     "dataSource": "db",
     "public": true
   },
-  "lugar_actividades": {
+  "LugarActividades": {
     "dataSource": "db",
     "public": false
   }

@@ -1,5 +1,5 @@
 {
-  "name": "lugar_actividades",
+  "name": "LugarActividades",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
