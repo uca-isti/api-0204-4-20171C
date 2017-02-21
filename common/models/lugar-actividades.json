@@ -1,0 +1,24 @@
+{
+  "name": "LugarActividades",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "lugar_id": {
+      "type": "number",
+      "required": true
+    },
+    "actividad_id": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    
+  ],
+  "methods": {}
+}
