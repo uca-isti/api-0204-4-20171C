@@ -35,6 +35,7 @@
       "principalId": "$everyone",
       "permission": "DENY"
     },
+
   {
     "accessType": "READ",
     "principalType": "ROLE",
@@ -49,6 +50,21 @@
     "permission": "ALLOW",
     "property": "create"
   }
-  ]
+  {
+    "accessType": "READ",
+    "principalType": "ROLE",
+    "principalId": "$owner",
+    "permission": "ALLOW",
+    "property": "create"
+  },
+  {
+    "accessType": "READ",
+    "principalType": "ROLE",
+    "principalId": "$authenticated",
+    "permission": "ALLOW",
+    "property": "create"
+  }
+],
 
+  "methods": {}
 }

@@ -32,7 +32,7 @@
     "dataSource": "db",
     "public": false
   },
-  "Locales": {
+  "Local": {
     "dataSource": "db",
     "public": true
   },

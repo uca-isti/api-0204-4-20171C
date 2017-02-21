@@ -1,5 +1,5 @@
 {
-  "name": "Locales",
+  "name": "Local",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -24,7 +24,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "lugar": {
+      "type": "belongsTo",
+      "model": "Lugar",
+      "foreignKey": "lugar_id"
+    }
+  },
   "acls": [
     {
       "accessType": "*",

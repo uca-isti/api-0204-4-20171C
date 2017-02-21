@@ -28,7 +28,37 @@
     }
   },
   "validations": [],
-  "relations": {},
+
   "acls": [],
+  "relations": {
+    "lugar": {
+      "type": "belongsTo",
+      "model": "Lugar",
+      "foreignKey": "lugar_id"
+    }
+  },
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "create"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "create"
+    }
+  ],
+>>>>>>> 6d41c4e9bea46658ebc1f1a073faa3c4bbf5a8e4
   "methods": {}
 }
