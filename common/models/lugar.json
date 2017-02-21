@@ -32,9 +32,6 @@
   },
   "validations": [],
   "relations": {},
-  "acls": [],
-  "methods": {},
-
   "acls": [
     {
       "accessType": "*",
@@ -43,18 +40,19 @@
       "permission": "DENY"
     },
     {
-  "accessType": "READ",
-  "principalType": "ROLE",
-  "principalId": "$owner",
-  "permission": "ALLOW",
-  "property": "create"
-},
-{
-  "accessType": "READ",
-  "principalType": "ROLE",
-  "principalId": "$authenticated",
-  "permission": "ALLOW",
-  "property": "create"
-}
-  ]
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW",
+      "property": "create"
+    },
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW",
+      "property": "create"
+    }
+  ],
+  "methods": {}
 }
