@@ -28,18 +28,7 @@
     }
   },
   "validations": [],
-  "relations": {
-    "lugar": {
-      "type": "belongsTo",
-      "model": "Lugar",
-      "foreignKey": "lugar_id"
-    },
-    "categoria": {
-      "type": "belongsTo",
-      "model": "categoria",
-      "foreignKey": "categoria_id"
-    }
-  },
+  "relations": {},
   "acls": [],
   "methods": {}
 }

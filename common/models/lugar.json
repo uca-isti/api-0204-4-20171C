@@ -32,9 +32,6 @@
   },
   "validations": [],
   "relations": {},
-  "acls": [],
-  "methods": {},
-
   "acls": [
     {
       "accessType": "*",
@@ -42,5 +39,6 @@
       "principalId": "$everyone",
       "permission": "DENY"
     }
-  ]
+  ],
+  "methods": {}
 }

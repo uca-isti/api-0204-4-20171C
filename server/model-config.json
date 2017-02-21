@@ -40,10 +40,6 @@
     "dataSource": "db",
     "public": true
   },
-  "Actividades": {
-    "dataSource": "db",
-    "public": true
-  },
   "servicios": {
     "dataSource": "db",
     "public": true
@@ -55,5 +51,9 @@
   "Lugar": {
     "dataSource": "db",
     "public": true
+  },
+  "lugar_actividades": {
+    "dataSource": "db",
+    "public": false
   }
 }
