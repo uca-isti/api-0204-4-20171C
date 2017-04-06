@@ -37,9 +37,6 @@
       "foreignKey": "categoria_id"
     }
   },
-<<<<<<< HEAD
-  "acls": [],
-=======
   "acls": [
     {
       "accessType": "*",
@@ -62,7 +59,5 @@
       "property": "create"
     }
   ],
->>>>>>> 6d41c4e9bea46658ebc1f1a073faa3c4bbf5a8e4
->>>>>>> a3c10083faa2d0030a06a241f850f56a5466ff99
   "methods": {}
 }
