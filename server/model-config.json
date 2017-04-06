@@ -36,13 +36,10 @@
     "dataSource": "db",
     "public": true
   },
-<<<<<<< HEAD
-=======
   "Actividad": {
     "dataSource": "db",
     "public": true
   },
->>>>>>> a3c10083faa2d0030a06a241f850f56a5466ff99
   "servicios": {
     "dataSource": "db",
     "public": true
@@ -55,11 +52,7 @@
     "dataSource": "db",
     "public": true
   },
-<<<<<<< HEAD
-  "Actividad": {
-=======
   "LugarActividades": {
->>>>>>> a3c10083faa2d0030a06a241f850f56a5466ff99
     "dataSource": "db",
     "public": false
   }
