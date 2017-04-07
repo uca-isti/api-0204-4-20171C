@@ -13,11 +13,7 @@
   },
   "validations": [],
   "relations": {
-    "local": {
-      "type": "belongsTo",
-      "model": "Local",
-      "foreignKey": "servicios_id"
-    }
+
   },
   "acls": [
     {

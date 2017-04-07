@@ -6,10 +6,7 @@
     "validateUpsert": true
   },
   "properties": {
-    "actividad_id": {
-      "type": "number",
-      "required": true
-    },
+
     "nombre": {
       "type": "string",
       "required": true
