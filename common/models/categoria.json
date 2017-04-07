@@ -10,10 +10,7 @@
       "type": "string",
       "required": true
     },
-    "actividad_id": {
-      "type": "number",
-      "required": true
-    }
+    
   },
   "validations": [],
   "relations": {},
