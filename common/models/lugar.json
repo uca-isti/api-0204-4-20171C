@@ -24,14 +24,10 @@
     },
     "descripcion": {
       "type": "string"
-    },
-
+    }
+  },
   "validations": [],
   "relations": {},
-  "acls": [
-    
-],
-
+  "acls": [],
   "methods": {}
-}
 }
